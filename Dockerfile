@@ -15,7 +15,7 @@ RUN docker-php-ext-install zip
 
 RUN echo -e "Install j13k/yaml-lint" \
     && composer global require j13k/yaml-lint --prefer-dist --no-progress \
-    && ln -nfs /root/.composer/vendor/j13k/yaml-lint/yaml-lint /usr/bin/yaml-lint \
+    && ln -nfs /root/.composer/vendor/j13k/yaml-lint/bin/yaml-lint /usr/bin/yaml-lint \
     && chmod a+x /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
