@@ -6,10 +6,10 @@ Header() {
   # Prints #
   ##########
   echo "---------------------------------------------"
-  echo "-- GitHub Actions TYPO3 Yaml Linter ---"
+  echo "-- GitHub Actions TYPO3 YAML Linter ---"
   echo "---------------------------------------------"
-  echo "TYPO3 Yaml Linter source code can be found at:"
-  echo " - https://github.com/TYPO3-Continuous-Integration/TYPO3-CI-Yaml-Lint"
+  echo "TYPO3 YAML Linter source code can be found at:"
+  echo " - https://github.com/TYPO3-Continuous-Integration/TYPO3-CI-YAML-Lint"
   echo "---------------------------------------------"
 }
 
