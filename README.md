@@ -1,4 +1,4 @@
-# TYPO3 Yaml Lint Github Action
+# TYPO3 YAML Lint Github Action
 
 This action lints yaml code of your TYPO3 extension.
 
