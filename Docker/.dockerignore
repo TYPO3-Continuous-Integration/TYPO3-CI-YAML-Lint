@@ -1,5 +1,5 @@
 # ignore all files by default
 *
 # include required files with an exception
-!.build/entrypoint.sh
-!README.md
+!Build/entrypoint.sh
+!../README.md
